@@ -28,7 +28,7 @@ make install
 
 Just run:
 
-```
+```python
 import matplotlib as mpl  # don't forget to `pip install matplotlib` first
 import matplotlib.pyplot as plt
 import nb_py
