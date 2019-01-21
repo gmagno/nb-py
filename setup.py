@@ -22,7 +22,6 @@ with open(path.join(here, 'requirements.txt')) as f:
 # Get requirements from requirements-dev.txt file
 with open(path.join(here, 'requirements-dev.txt')) as f:
     requirements_dev = f.read().replace('==', '>=').splitlines()
-    print('requirements_dev: {}'.format(requirements_dev))
 
 setup(
     name='nb_py',
