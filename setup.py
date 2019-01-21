@@ -45,7 +45,7 @@ setup(
     extras_require={
         'dev': requirements_dev,
     },
-        data_files=[(
+    data_files=[(
         '.', [
             'requirements.txt',
             'requirements-dev.txt',
